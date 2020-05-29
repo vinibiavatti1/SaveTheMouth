@@ -678,8 +678,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetFontColor,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.System.Cnds.CompareBoolVar,
-		C3.Plugins.System.Acts.ToggleBoolVar
+		C3.Plugins.System.Acts.ToggleBoolVar,
+		C3.Plugins.System.Acts.GoToLayout
 	];
 };
 self.C3_JsPropNameTable = [
@@ -729,7 +731,7 @@ self.C3_JsPropNameTable = [
 	{parede2: 0},
 	{agrupador2: 0},
 	{fungo2: 0},
-	{vinho: 0},
+	{quetchup: 0},
 	{Projétil: 0},
 	{Hamburguer: 0},
 	{Canhão: 0},
@@ -761,6 +763,12 @@ self.C3_JsPropNameTable = [
 	{Sprite: 0},
 	{Áudio: 0},
 	{Sprite2: 0},
+	{mostarda: 0},
+	{SetaMundo1: 0},
+	{SetaMundo2: 0},
+	{SetaMundo3: 0},
+	{Zerar: 0},
+	{voltar: 0},
 	{itens: 0},
 	{xInicial: 0},
 	{yInicial: 0},
@@ -905,6 +913,7 @@ self.C3_JsPropNameTable = [
 		() => -196824593859583,
 		() => -12013220863,
 		() => -1023,
+		() => 3,
 		() => -10
 	];
 }
